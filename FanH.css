@@ -1,0 +1,104 @@
+
+header{
+    text-align: center;
+    background-image: url("./个人设1.jpg"),url("./个人设3.jpg");
+    background-repeat:no-repeat,no-repeat ;
+    background-position: left,right;
+    background-size:contain,contain;
+    background-color: aqua;
+    font-size: 25px;   /* 字体 */
+    padding: 5px;
+}
+
+h2{
+    text-align: flex-start;
+    font-size: 30px;
+    margin: 0 50px;
+}
+
+.card{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+
+
+.oc{
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.oc img{
+    height: 768px;
+    width: auto;
+}
+
+
+
+
+.butt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+button{
+    cursor: pointer;
+    border: solid 0.5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: background 0.5s;
+}
+button:hover{
+    background: #66ccff;
+    text-decoration: underline;
+
+}
+
+
+
+.pic{
+    display: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pic img{
+    height: 768px;
+    width: auto;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: #66ccff;
+    padding: 5px;
+    background-image: url("./个人设1.jpg"),url("./个人设3.jpg");
+    background-repeat:no-repeat,no-repeat ;
+    background-position: left,right;
+    background-size:contain,contain;
+    margin: 30px 0;
+
+}
