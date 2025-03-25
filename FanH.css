@@ -34,6 +34,7 @@ h2{
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    overflow-x: auto;
 }
 
 
@@ -42,6 +43,7 @@ h2{
     display: none;
     justify-content: space-evenly;
     align-items: center;
+    overflow-x: auto;
 }
 .oc img{
     height: 768px;
@@ -80,6 +82,7 @@ button:hover{
     display: none;
     justify-content: space-evenly;
     align-items: center;
+    overflow-x: auto;
 }
 .pic img{
     height: 768px;
