@@ -107,15 +107,18 @@ footer{
 }
 
 @media screen and (max-width: 800px){
-    h1,h2,p{
+    h1,h2,p,a{
         font-size:15px;
     }
     .social img{
-        height:150px;
+        height:100px;
         width:auto;
     }
     .oc img,.pic img{
         height: 300px;
         width: auto;
+    }
+    .butt {
+        margin: 0 10px; 
     }
 }
